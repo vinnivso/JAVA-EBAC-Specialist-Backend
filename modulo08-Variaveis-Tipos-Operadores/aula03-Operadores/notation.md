@@ -1,0 +1,25 @@
+# Operadores
+
+  - Operadores Aritméticos:
+    - +-: Soma e subtração
+    - /*: Divisão e Multiplicação;
+  - Operadores de Atribuição:
+    - =: Atribuindo valor em uma variável;
+    - +=: num1 += num2 --> num1 = num1 + num2
+    - -=: num1 -= num2 --> num1 = num1 - num2
+    - *=: num1 *= num2 --> num1 = num1 * num2
+    - /=: num1 /= num2 --> num1 = num1 / num2
+  - Operadores de Incremento/Decremento:
+    - ++: num1++ --> num1 + 1;
+    - --: num1-- --> num1 - 1;
+  - Operadores Relacionais:
+    - < : Menor que;
+    - > : Maior que;
+    - <= : Menor igual que;
+    - >= : Maior igual que;
+    - == : Igual que;
+    - != : Diferente de;
+  - Operadores Lógicos:
+    - && : AND;
+    - || : OR;
+    - ! : NOT.
