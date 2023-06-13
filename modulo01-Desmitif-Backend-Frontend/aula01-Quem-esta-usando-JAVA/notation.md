@@ -1,0 +1,3 @@
+# Quem está usando JAVA
+
+- TOTVS, ITAU, SANTANDER, dentre outros ...
