@@ -1,0 +1,16 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Â²òÀÿÿÿÿÿ8ƒ¾–½Ê1
+g	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åıÿÿÿÿ8ƒ¾–½Ê1
+L
+java:S3740"/Provide the parametrized type for this generic.(İúéè8ƒ¾–½Ê1
+L
+java:S3740"/Provide the parametrized type for this generic.(ÁÄº8ƒ¾–½Ê1
+Q
+java:S3740"/Provide the parametrized type for this generic.(ù–‹ùÿÿÿÿ8ƒ¾–½Ê1
+L	java:S106"+Replace this use of System.out by a logger.(ÌãÅÒûÿÿÿÿ8³¾–½Ê1
+G	java:S106"+Replace this use of System.out by a logger.(‰Òµí8¶¾–½Ê1
+v
+java:S3012""YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(×õë´8¸¾–½Ê1
+L	java:S1066"+Replace this use of System.out by a logger.(¨à·ñúÿÿÿÿ8º¾–½Ê1
+G	java:S1067"+Replace this use of System.out by a logger.(¢“ôº8º¾–½Ê1
+G	java:S1068"+Replace this use of System.out by a logger.(şÙ…Õ8º¾–½Ê1
