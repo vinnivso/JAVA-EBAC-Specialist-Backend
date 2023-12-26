@@ -1,0 +1,15 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(«×è
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(æ¶Ğš
+Z	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ï·V
+`	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Á£Òÿÿÿÿÿ
+`	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ê˜›¹
+`	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+e
+java:S11926"JDefine a constant instead of duplicating this literal "
+Result: " 3 times.(¦«À øÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(˜ˆÌğ
+@	java:S106"+Replace this use of System.out by a logger.(øÙ’­
