@@ -7,7 +7,8 @@ import java.util.Scanner;
 /**
  * @author VINNIVSO
  */
-public class ResultBusiness {
+public class
+ResultBusiness {
     public static void main(String[] args) {
         System.out.println("Please enter the 4 expected arguments. Separate each value by an ENTER");
         System.out.println("The average is: " + average());

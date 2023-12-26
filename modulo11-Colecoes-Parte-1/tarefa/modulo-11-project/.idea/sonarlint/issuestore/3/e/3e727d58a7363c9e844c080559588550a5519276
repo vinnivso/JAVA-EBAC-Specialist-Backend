@@ -1,0 +1,30 @@
+
+`	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(²¤‘“
+[	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(™’ÙÊ
+`	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ğ˜â–ÿÿÿÿÿ
+`	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+[	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(¼Ğ±”
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+t
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+t
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨®¯´ùÿÿÿÿ
+t
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷õ’üûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(şÒÉÂúÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(±áäëÿÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "list".(çâîÀıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¸œçûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(íñËìşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¢ËÉşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ
+S
+java:S1854/"8Remove this useless assignment to local variable "list".(çâîÀıÿÿÿÿ
+E	java:S106;"+Replace this use of System.out by a logger.(Ğê‘üúÿÿÿÿ
+@	java:S106<"+Replace this use of System.out by a logger.(‡î©ë
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
