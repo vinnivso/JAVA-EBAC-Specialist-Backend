@@ -1,4 +1,4 @@
-package org.vinicius;
+package org.vinicius.interfaces;
 
 public class Main {
     public static void main(String[] args) {
