@@ -1,2 +1,2 @@
-# EBAC-Especialista-Backend-JAVA
-Repositório criado para demonstrar meus aprendizados a cada Módulo
+# EBAC-Specialist-Backend-JAVA
+Repository created to demonstrate my learnings from each Module.
