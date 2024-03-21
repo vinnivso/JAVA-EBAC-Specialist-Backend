@@ -1,0 +1,8 @@
+# TAREFA - MÓDULO 31
+
+## JPA e ORM (Hibernate)
+
+- JPA significa Java Persistence API. É uma especificação de uma "API Java para gerenciamento de persistência e mapeamento objeto/relacional em ambientes Java EE e Java SE".
+ Basicamente, o JPA une um conjunto de regras que permite que qualquer um possa implementar esta API, permitindo que possa usar esta implementação em qualquer projeto que utilize as interfaces JPA, garantindo assim uma certa compatibilidade entre diferentes implementações.
+ É aqui que entra o Hibernate. O Hibernate é uma implementação da especificação JPA, certamente a mais comum e usada. Além do Hibernate, temos também outras implementações do JPA, como o OpenJPA e EclipseLink. É comum muitas pessoas tratarem Hibernate e JPA como se fossem uma coisa só, tanto que é comum você ter uma dúvida específica de JPA mas encontrar a resposta em uma pergunta que só cita o Hibernate nela. Esta confusão só existe por causa da popularidade maior do Hibernate.
+ Em teoria, se não estiver usando nenhum recurso exclusivo de alguma implementação (o que é relativamente comum), é possível trocar uma implementação por outra no seu projeto de forma transparente. Por exemplo, um mapeamento comum de entidade envolve anotações como @Column, @Table, @Id, etc, e todos eles fazem parte do pacote javax.persistence, comum a qualquer implementação JPA. Assim, uma troca do Hibernate pelo OpenJPA (por exemplo) ocorreria de forma transparente para a aplicação.
