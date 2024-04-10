@@ -1,0 +1,3 @@
+# Diferenças entre entrega contínua e implantação contínua
+
+- A principal diferença entre Entrega Contínua e Implantação Contínua está na automação da decisão de implantação em produção. Na Entrega Contínua, a equipe decide manualmente quando implantar o software, enquanto na Implantação Contínua, a implantação é totalmente automatizada e ocorre assim que as alterações são confirmadas e passam nos testes automatizados. Ambas as práticas visam melhorar a eficiência, qualidade e velocidade do desenvolvimento de software, mas a Implantação Contínua leva a automação um passo adiante, permitindo implantações mais frequentes e confiáveis em produção.
