@@ -26,7 +26,7 @@ public class CaretakerController {
      * @return A list of Caretaker objects.
      */
     @GetMapping
-    private List<Caretaker> findAll() {
+    public List<Caretaker> findAll() {
         return repository.findAll();
     }
 
@@ -37,7 +37,7 @@ public class CaretakerController {
      * @return The caretaker with the specified name.
      */
     @GetMapping(value="/{name}")
-    private Caretaker findByName(@PathVariable String name) {
+    public Caretaker findByName(@PathVariable String name) {
         return repository.findByName(name);
     }
     /**
@@ -47,7 +47,7 @@ public class CaretakerController {
      * @return The newly created Caretaker object saved in the repository.
      */
     @PostMapping
-    private Caretaker create(@RequestBody Caretaker caretaker) {
+    public Caretaker create(@RequestBody Caretaker caretaker) {
         return repository.save(caretaker);
     }
 

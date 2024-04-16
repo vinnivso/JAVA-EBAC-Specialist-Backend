@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/animals")
 public class AnimalController {
-    private AnimalRepository repository;
+    private final AnimalRepository repository;
 
     public AnimalController(AnimalRepository repository) {
         this.repository = repository;
@@ -24,7 +24,7 @@ public class AnimalController {
      * @return A list of Animal objects.
      */
     @GetMapping
-    private List<Animal> findAll() {
+    public List<Animal> findAll() {
         // Retrieve all animals from the repository
         return repository.findAll();
     }
@@ -35,7 +35,7 @@ public class AnimalController {
      * @return a list of animals that have not been adopted.
      */
     @GetMapping("/not-adopted")
-    private List<Animal> findNotAdopted() {
+    public List<Animal> findNotAdopted() {
         return repository.findNotAdopted();
     }
 
@@ -45,7 +45,7 @@ public class AnimalController {
      * @return List of Animal objects representing not adopted dogs
      */
     @GetMapping("/not-adopted/dog")
-    private List<Animal> findNotAdoptedDog() {
+    public List<Animal> findNotAdoptedDog() {
         return repository.findAll().stream()
                 .filter(element -> element.getSpecie().equals("dog"))
                 .toList();
@@ -57,7 +57,7 @@ public class AnimalController {
      * @return a list of not adopted cats
      */
     @GetMapping("/not-adopted/cat")
-    private List<Animal> findNotAdoptedCat() {
+    public List<Animal> findNotAdoptedCat() {
         return repository.findAll().stream()
                 .filter(element -> element.getSpecie().equals("cat"))
                 .toList();
@@ -69,7 +69,7 @@ public class AnimalController {
      * @return List of adopted animals
      */
     @GetMapping("/adopted")
-    private List<Animal> findAdopted() {
+    public List<Animal> findAdopted() {
         return repository.findAdopted();
     }
 
@@ -79,7 +79,7 @@ public class AnimalController {
      * @return List of adopted dog animals
      */
     @GetMapping("/adopted/dog")
-    private List<Animal> findAdoptedDog() {
+    public List<Animal> findAdoptedDog() {
         return repository.findAll().stream()
                 .filter(element -> element.getSpecie().equals("dog"))
                 .toList();
@@ -91,7 +91,7 @@ public class AnimalController {
      * @return         	list of adopted cat animals
      */
     @GetMapping("/adopted/cat")
-    private List<Animal> findAdoptedCat() {
+    public List<Animal> findAdoptedCat() {
         return repository.findAll().stream()
                 .filter(element -> element.getSpecie().equals("cat"))
                 .toList();
@@ -104,7 +104,7 @@ public class AnimalController {
      * @return The created animal object
      */
     @PostMapping
-    private Animal create(@RequestBody Animal animal) {
+    public Animal create(@RequestBody Animal animal) {
         return repository.save(animal);
     }
 
@@ -114,7 +114,7 @@ public class AnimalController {
      * @return List of caretakers
      */
     @GetMapping("/caretakers")
-    private List<String> findCaretakers() {
+    public List<String> findCaretakers() {
         // Define the start date
         Date startDate = Date.valueOf("2024-02-15");
 
@@ -134,7 +134,7 @@ public class AnimalController {
      * @return List of animals found within the specified month.
      */
     @GetMapping("/month")
-    private List<Animal> findMonthAnimals(
+    public List<Animal> findMonthAnimals(
             @RequestParam(name = "startDate", required = true)
             @DateTimeFormat(pattern = "dd/MM/yyyy") LocalDate startDate,
             @RequestParam(name = "endDate", required = true)
